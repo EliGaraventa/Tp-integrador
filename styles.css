@@ -1,0 +1,88 @@
+
+
+#foto-bsas{
+    opacity: 60%;
+}
+
+#letras-bsas{
+    width: 100%;
+    padding-left: 30rem;
+    text-align: right;
+    box-sizing: border-box;
+    
+    
+}
+
+#foto-bsas-titulo{
+    text-align: right ;
+}
+#oradores{
+    padding-top: 100px;
+    text-align: center;
+}
+
+#cartas{
+    justify-content: center ;
+    padding-top: 10px;
+    
+}
+
+#honolulu{
+    
+    justify-content: center; 
+    
+}
+
+
+#spot{
+    background-color: rgb(61, 61, 61);
+}
+
+.texto-bajo{
+    text-align:center ;
+}
+
+#formulario{
+    margin: auto;
+    width: 700px;
+}
+
+
+
+#pie-pag{
+    justify-content: center; 
+    margin-top: 3rem; 
+    background: linear-gradient(to right, rgb(32, 40, 71), rgb(74, 86, 156) );
+}
+
+#preg{
+    align-items:center ;
+}
+
+#foot{
+    padding-top: 10px;
+    
+}
+
+#prensa {
+    color: aliceblue;
+}
+#pregF{
+    color: aliceblue;
+}
+
+#contact{
+    color: aliceblue;
+}
+#conf {
+    color: aliceblue;
+}
+#terminos{
+    color: aliceblue;
+}
+#estud {
+    color: aliceblue;
+}
+#priv{
+    color: aliceblue;
+}
