@@ -8915,12 +8915,12 @@ textarea.form-control-lg {
   .d-md-table-cell {
     display: table-cell !important;
   }
-  .d-md-flex {
+  /*.d-md-flex {
     display: flex !important;
   }
   .d-md-inline-flex {
-    display: inline-flex !important;
-  }
+    display: inline-flex;
+  }**/
   .d-md-none {
     display: none !important;
   }

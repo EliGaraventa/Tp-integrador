@@ -1,16 +1,23 @@
 
-
 #foto-bsas{
     opacity: 60%;
 }
 
 #letras-bsas{
     width: 100%;
-    padding-left: 30rem;
+   height: auto;
     text-align: right;
     box-sizing: border-box;
+    position: absolute;
+    top: 5rem;
     
     
+    
+}
+ 
+#p.conf{
+    position: absolute;
+   
 }
 
 #foto-bsas-titulo{
@@ -44,7 +51,7 @@
 
 #formulario{
     margin: auto;
-    width: 700px;
+    
 }
 
 
@@ -86,3 +93,68 @@
 #priv{
     color: aliceblue;
 }
+
+
+
+@media  screen and (max-width: 800px) {
+    
+    #letras-bsas {
+        font-size: 12px;
+    }
+}
+
+@media  screen and (max-width: 417px) {
+    
+    #letras-bsas {
+        font-size: 8px;
+        top: 2rem
+        ;
+    }
+}
+
+@media  screen and (max-width: 550px) and (max-height:625px ) {
+    
+    #letras-bsas {
+        top:3rem;
+    }
+}
+@media  screen and (max-width: 512px)  {
+    
+    #letras-bsas {
+        top:2.5rem;
+        font-size: 8.5px;
+    }
+}
+
+@media  screen and (max-width: 390px) {
+    
+    #letras-bsas {
+        top:3rem;
+    }
+}
+
+@media  screen and (max-width: 376px) {
+    #botones{
+        --bs-btn-padding-y: .25rem; 
+        --bs-btn-padding-x: .5rem; 
+        --bs-btn-font-size: .75rem;
+        
+
+    }
+    #letras-bsas {
+        font-size: 8px;
+        top: 4px;
+      
+    }
+}
+
+
+
+@media screen and (max-width: 360px) {
+    #formulario{
+
+        size-adjust: 20px;
+    }
+    
+}
+
